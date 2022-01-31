@@ -13,7 +13,7 @@ const cli = meow(
       --commitsPerDay, -c Customize how many commits a day to make.
       --startDate, -s Start date in yyyy/MM/dd format.
       --endDate, -e End date yyyy/MM/dd format.
-      --resume, -r End date yyyy/MM/dd format.
+      --resume, -r Use this option if you don't want to create new git directory.
       
     Examples
       $ git-cheater --weekdaysOnly

@@ -27,7 +27,7 @@ module.exports = function ({ commitsPerDay, weekdaysOnly, startDate, endDate, re
   (async function () {
     const spinner = ora("Generating your GitHub activity\n").start();
 
-    const historyFolder = "dont-cheat-folder";
+    const historyFolder = "cheat-folder";
 
     // Remove git history folder in case if it already exists.]
     if (existsSync(`./${historyFolder}`) && !resume) {

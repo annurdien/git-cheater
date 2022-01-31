@@ -1,0 +1,42 @@
+{
+  "name": "git-cheater",
+  "version": "1.0.2",
+  "description": "Github fake commit generator",
+  "bin": "src/cli.js",
+  "main": "src/cli.js",
+  "files": [
+    "src/cli.js",
+    "src/index.js"
+  ],
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "fake-commit",
+    "git-activity",
+    "contributions-calendar",
+    "contribution-graph"
+  ],
+  "author": "Annurdien Rasyid",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "4.1.0",
+    "date-fns": "1.30.1",
+    "meow": "5.0.0",
+    "ora": "5.1.0"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annurdien/git-cheater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/annurdien/git-cheater/issues"
+  },
+  "homepage": "https://github.com/annurdien/git-cheater#readme"
+}
