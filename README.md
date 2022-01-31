@@ -38,12 +38,12 @@ Default is `0,3` which means it will randomly make from 0 to 3 commits a day. Ex
 npx git-cheater --commitsPerDay "0,5"
 ```
 
-### `--workdaysOnly`
+### `--weekdaysOnly`
 
 Use it if you don't want to commit on weekends. Example:
 
 ```shell script
-npx git-cheater --workdaysOnly
+npx git-cheater --weekdaysOnly
 ```
 
 ### `--startDate` and `--endDate`
