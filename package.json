@@ -1,12 +1,12 @@
 {
   "name": "git-cheater",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Github fake commit generator",
   "bin": "src/cli.js",
   "main": "src/cli.js",
   "files": [
     "src/cli.js",
-    "src/index.js"
+    "src/app.js"
   ],
   "scripts": {
     "start": "node src/cli.js"
